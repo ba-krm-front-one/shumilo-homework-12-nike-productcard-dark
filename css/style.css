@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #c5c5c8;
+
+}
+@font-face {
+	font-family: "MuseoSansLight";
+	src: url("../fonts/MuseoSansLight.eot");
+	src: url("../fonts/MuseoSansLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MuseoSansLight.woff") format("woff"),
+	url("../fonts/MuseoSansLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+.bg {
+	background-image: url(../imgs/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 800px;
+	height: 600px;
+	margin: 35px auto;
+	padding-top: 7%;
+}
+.card {
+	margin: auto;
+	width: 686px;
+	height: 391px;
+	box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+	border-radius: 10px;
+	background-color: #111a28;
+	font-size: 0;
+}
+.card__header {
+	padding-top: 3.5%;
+	padding-left: 3.5%;
+	margin-bottom: 10px;
+}
+.main__cross, .main__info {
+	display: inline-block;
+}
+.main__cross {
+	width: 65%;
+	padding-top: 8%;
+	padding-left: 6%;
+}
+.main__cross img:hover {
+	transform: scale(1.05);
+	transition: transform 0.5s;
+}
+.main__info {
+	width: 35%;
+	vertical-align: top;
+	font-size: 14px;
+}
+.main__info h1 {
+	margin: 0;
+	font-size: 1.8em;
+	font-family: "MuseoSansLight", sans-serif;
+	color: #e1e1e1;
+	font-weight: 100;
+	line-height: 1.1em;
+	opacity: 0.8;
+	cursor: default;
+}
+.main__info h1:hover {
+	text-shadow: 0 0 3px rgba(225, 225, 225, 0.7);
+}
+.main__info h3 {
+	margin-top: 12px;
+	margin-bottom: 25px;
+	font-size: 1em;
+	font-family: "MuseoSansLight", sans-serif;
+	color: #e1e1e1;
+	font-weight: 100;
+	opacity: 0.54;
+}
+.main__info img {
+	margin-bottom: 25px;
+}
+.form__choose {
+	margin: 0;
+	width: 68px;
+	font-family: "MuseoSansLight", sans-serif;
+	font-weight: 100;
+	background-color: #111a28;
+	height: 34px;
+	border: 1px solid #4f5560;
+	color: #e1e1e1;
+	opacity: 0.8;
+	padding-left: 10px;
+	cursor: pointer;
+	outline: none;
+}
+.form__choose:hover {
+	background-color: #202835;
+}
+.form__button {
+	width: 184px;
+	height: 40px;
+	border: 1px solid #4f5560;
+	background-color: #202835;
+	color: #e1e1e1;
+	opacity: 0.8;
+	font-family: "MuseoSansLight", sans-serif;
+	font-weight: 100;
+	margin-top: 28px;
+}
+.form__button:hover {
+	box-shadow: 0 0 10px rgba(225, 225, 225, 0.8);
+}
+.points {
+	margin-top: 30px;
+	margin-left: 180px;
+}
+
+
+
+
+
+
+
+
